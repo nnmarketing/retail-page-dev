@@ -347,9 +347,13 @@
         </div>
       </div>
       <div class="xdruple-page-body-content has-no-sidebar">
-        <div style="height: 300px; background-color: black">
-          <p style="color: white; text-align: center">placeholder</p>
+        <div style="height: 300px">
+          <!-- <p style="color: white; text-align: center">placeholder</p> -->
+          <img src="retail-images/Retailer_Resource_page_header.jpg" style="max-width: 100%; position: absolute; z-index: -1">
         </div>
+
+      <div style="position: absolute; background-color: white; width: 100%">
+
         <div class="container">
           <div class="row">
             <div class="xdruple-page-content col-sm-6">
@@ -360,7 +364,7 @@
 
                 <p>Nordic Naturals is excited to partner with Experticity to help retail staff become experts in the science. Together, we bring you 24/7 online training where you earn free products as you learn.
                 </p>
-                <div class="btn btn-primary">Get Started</div>
+                <a href="http://www.experticity.com/nordicnaturals" target="_none"><div class="btn btn-primary">Get Started</div></a>
               </div>
             </div>
             <div class="xdruple-page-content col-sm-6">
@@ -373,26 +377,44 @@
             </div>
           </div>
         </div>
+      </div>
         <style>
           .pdf-box {
-
             margin: auto;
             width: 50%;
-            background-color: lightblue;
+            /*background-color: lightblue;*/
             width: 180px;
-            height: 200px;
+            /*height: 240px;*/
             margin-bottom: 18px;
             margin-top: 18px;
           }
+
+          #body-wrap > div.xdruple-page-body > div.xdruple-page-body-content.has-no-sidebar > div:nth-child(4) > div > div:nth-child(1) > h2::before{
+
+            /*position: absolute;*/
+            margin-left: 86px;
+
+          }
+          .download-link{
+            border-bottom: 1px solid #0889d3;
+            width: 85%;
+            margin: auto;
+            margin-top: -6px;
+          }
+
         </style>
-        <div style="background-color: #DCDCDC">
+        <div style="background-color: #DCDCDC; padding-top: 300px;">
           <div class="container">
             <div class="row" style="text-align: center">
 
               <h2 class="xdruple-title xdruple-title--main">LITERATURE</h2>
               <div class="xdruple-page-content col-sm-4">
                 <div class="pdf-box">
-
+                  <a href="retail-images/nordic-naturals-story.pdf" target="_none">
+                    <img src="retail-images/nordic-naturals-story-front.png" style="max-width: 100%;"><br>
+                    <p><b>Nordic Naturals Story (2017)</b></p>
+                    <p class="download-link">Right-click to download</p>
+                  </a>
                 </div>
               </div>
               <div class="xdruple-page-content col-sm-4">
@@ -434,21 +456,13 @@
               <div id="status-messages"></div>
 
               <style>
-                .retail-images {
+                .retail-images{
                   max-width: 100%;
                   margin-top: -80px;
                 }
-
-                .slidesjs-container {
-                  /*background-color: green;
-                height: 800px;*/
-                  /*width: 800px;*/
-                }
-
-                .daily-dose-carousel {
+                .daily-dose-carousel{
                   margin: auto;
                   max-width: 100%;
-                  border: 3px solid green;
                 }
 
                 #custom-carousel>div.daily-dose-carousel>a.slidesjs-next.slidesjs-navigation::after {
@@ -467,6 +481,14 @@
                   display: none;
                 }
 
+                #custom-carousel > center > h2{
+                  margin-bottom: -50px;
+                }
+                #custom-carousel > center > h2::before{
+                  margin-left: 355px;
+
+                }
+
                 .carousel-item-text {
                   color: black;
                 }
@@ -474,6 +496,13 @@
                 .daily-dose-carousel {
                   width: 1200px;
                   height: 680px;
+                }
+
+
+
+                #custom-carousel{
+                  margin-bottom: -100px;
+
                 }
               </style>
 
@@ -483,7 +512,8 @@
 
                 <div class="carousel-item">
                   <div class="carousel-item-left">
-                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">p e a c e</h2> hellllooooo
+                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">ENDCAP CUBE</h2>
+                    <p>6.5" square</p>
                   </div>
                   <div class="carousel-item-right">
                     <img src="retail-images/q3_2017-CUBE_mock.png" class="retail-images" />
@@ -492,7 +522,8 @@
 
                 <div class="carousel-item">
                   <div class="carousel-item-left">
-                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">p e a c e</h2> hellllooooo
+                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">EASELBACK</h2>
+                    <p>8.5" x 11"</p>
                   </div>
                   <div class="carousel-item-right">
                     <img src="retail-images/q3_2017-EASELBACK_mock.png" class="retail-images" />
@@ -501,7 +532,8 @@
 
                 <div class="carousel-item">
                   <div class="carousel-item-left">
-                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">p e a c e</h2> hellllooooo
+                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">ENDCAP POSTER</h2>
+                    <p>35" x 17"</p>
                   </div>
                   <div class="carousel-item-right">
                     <img src="retail-images/q3_2017-ENDCAP_mock.png" class="retail-images" />
@@ -510,7 +542,8 @@
 
                 <div class="carousel-item">
                   <div class="carousel-item-left">
-                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">p e a c e</h2> hellllooooo
+                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">SHELF FLAG</h2>
+                    <p>3" circle</p>
                   </div>
                   <div class="carousel-item-right">
                     <img src="retail-images/q3_2017-shelfflag-mock.png" class="retail-images" />
@@ -519,7 +552,8 @@
 
                 <div class="carousel-item">
                   <div class="carousel-item-left">
-                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">p e a c e</h2> hellllooooo
+                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">PERMANENT DISPLAY HEADER</h2>
+                    <p>12.5" x 14.75"</p>
                   </div>
                   <div class="carousel-item-right">
                     <img src="retail-images/q3_2017-PERM-displayheader_mock.png" class="retail-images" />
@@ -528,7 +562,8 @@
 
                 <div class="carousel-item">
                   <div class="carousel-item-left">
-                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">p e a c e</h2> hellllooooo
+                    <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em">5 POSTER SERIES</h2>
+                    <p>18" x 24"</p>
                   </div>
                   <div class="carousel-item-right">
                     <img src="retail-images/q3_2017-POSTERS_mock.png" class="retail-images" />
@@ -543,8 +578,9 @@
           #two-panel {
             padding-bottom: 400px;
             margin-top: 40px;
+            position: relative;
+            z-index: -1;
           }
-
           #two-panel-left {
             height: 400px;
             background-color: #23b3ce;
@@ -552,7 +588,6 @@
             left: 0px;
             width: 50%;
           }
-
           #two-panel-right {
             height: 400px;
             background-color: #0a505e;
@@ -560,15 +595,69 @@
             right: 0px;
             width: 50%;
           }
+          #two-panel-container{
+            position: relative;
+            z-index: 1;
+            margin-top: -400px;
+            height: 400px;
+          }
+          #two-panel-container > div > div > div:nth-child(1) > h2::before{
+            background-color: white;
+          }
+          #two-panel-container > div > div > div:nth-child(2) > h2::before{
+            background-color: white;
+          }
+          #two-panel-container p{
+            color: white;
+          }
         </style>
-        <section id="two-panel">
+
+<section id="two-panel">
+  <div id="two-panel-left"></div>
+  <div id="two-panel-right"></div>
+</section>
+
+<div id="two-panel-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h5 class="xdruple-title xdruple-title--subtitle" style="color:white">POWERED BY EXPERTICITY</h5>
+        <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em; color:white">NORDIC NATURALS ONLINE TRAINING PROGRAM</h2>
+
+        <div class="xdruple-text xdruple-text--main xdruple-text--format--plain">
+          <p>Our 24/7 online tool will help you provide customers with expert advice. Learn at your convenience. Have fun. Earn free product. Win prizes.</p>
+
+          <p>Nordic Naturals is excited to partner with Experticity to help retail staff become experts in the science. Together, we bring you 24/7 online training where you earn free products as you learn.
+          </p>
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h5 class="xdruple-title xdruple-title--subtitle" style="color:white">POWERED BY EXPERTICITY</h5>
+        <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em; color:white">NORDIC NATURALS ONLINE TRAINING PROGRAM</h2>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+        <!-- <section id="two-panel">
+
+          <style>
+
+          </style>
+
           <div id="two-panel-left">
-            hi
+            <h5 class="xdruple-title xdruple-title--subtitle" style="color:white">POWERED BY EXPERTICITY</h5>
+            <h2 class="xdruple-title xdruple-title--main" style="font-size: 1.2em; color:white">NORDIC NATURALS ONLINE TRAINING PROGRAM</h2>
           </div>
           <div id="two-panel-right">
             hi
           </div>
-        </section>
+
+
+        </section> -->
+
       </div>
       <div class="xdruple-page-bottom">
         <div class="container">
